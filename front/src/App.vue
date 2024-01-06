@@ -17,11 +17,20 @@
 </template>
 
 <script>
+import io from "socket.io-client";
+
 export default {
   data: () => ({
     useName: "",
     joinType: 1,
-    roomId: ""
-  })
+    roomId: "",
+    socket: io("http://localhost:3031")
+  }),
+
+  created() {
+    this.socket.on("connect", () => {
+      console.log("connected");
+    });
+  }
 };
 </script>
