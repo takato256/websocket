@@ -1,0 +1,22 @@
+*/*.DS_Store
+*/node_modules
+*/dist
+
+# local env files
+front/*.env.local
+front/*.env.*.local
+
+# Log files
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+front/pnpm-debug.log*
+
+# Editor directories and files
+front/*.idea
+front/*.vscode
+front/*.suo
+front/*.ntvs*
+front/*.njsproj
+front/*.sln
+front*.sw?
