@@ -2,12 +2,12 @@
 
 ## setup
 ```
-npm start
+npm run serve
 ```
 
 # server
 
 ## setup
 ```
-npm run serve
+npm start
 ```
